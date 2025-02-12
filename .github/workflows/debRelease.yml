@@ -27,6 +27,7 @@ jobs:
       - name: Build Extreme Tux Racer
         run: |
           cd REPO
+          ./autogen.sh
           mkdir -p extremetuxracer_0.8.4-1/usr
           cp -r DEBIAN extremetuxracer_0.8.4-1/DEBIAN
           ./configure
