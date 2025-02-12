@@ -1,0 +1,6 @@
+Package: extremetuxracer
+Version: 0.8.4
+Priority: optional
+Architecture: amd64
+Maintainer: Finn Baltazar
+Description: High speed arctic racing game based on Tux Racer
