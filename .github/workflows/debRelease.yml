@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt update
-          sudo apt install libsfml-dev libsdl2 libsdl2-mixer-2.0-0 mesa-utils freeglut3-dev tcl build-essential
+          sudo apt install libsfml-dev libsdl2-dev libsdl2-mixer-2.0-0 mesa-utils freeglut3-dev tcl build-essential
 
       - name: Build Extreme Tux Racer
         run: |
